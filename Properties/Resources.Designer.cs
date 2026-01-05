@@ -143,6 +143,7 @@ namespace Library_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap magnifying_glass__2_ {
             get {
                 object obj = ResourceManager.GetObject("magnifying-glass (2)", resourceCulture);
@@ -153,6 +154,8 @@ namespace Library_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> 1bd55e2d1d4aded78b50a1b62887192624ec316a
         internal static System.Drawing.Bitmap menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);

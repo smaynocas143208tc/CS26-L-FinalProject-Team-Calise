@@ -45,7 +45,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
@@ -69,7 +68,15 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.nightControlBox1 = new ReaLTaiizor.Controls.NightControlBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.panel1 = new System.Windows.Forms.Panel();
             this.label23 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -78,15 +85,28 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
+=======
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+>>>>>>> 1bd55e2d1d4aded78b50a1b62887192624ec316a
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+<<<<<<< HEAD
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+>>>>>>> 1bd55e2d1d4aded78b50a1b62887192624ec316a
             this.SuspendLayout();
             // 
             // label4
@@ -307,17 +327,6 @@
             this.label20.Size = new System.Drawing.Size(210, 21);
             this.label20.TabIndex = 32;
             this.label20.Text = "Photo or Valid ID (Optional)";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(137, 1135);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox3.TabIndex = 31;
-            this.pictureBox3.TabStop = false;
             // 
             // label19
             // 
@@ -542,6 +551,98 @@
             this.textBox1.Size = new System.Drawing.Size(320, 29);
             this.textBox1.TabIndex = 8;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.label23);
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.nightControlBox1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1150, 40);
+            this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(40, 10);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(294, 21);
+            this.label23.TabIndex = 42;
+            this.label23.Text = "Library Management System - Register";
+            // 
+            // nightControlBox1
+            // 
+            this.nightControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.nightControlBox1.BackColor = System.Drawing.Color.Transparent;
+            this.nightControlBox1.CloseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.nightControlBox1.CloseHoverForeColor = System.Drawing.Color.White;
+            this.nightControlBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nightControlBox1.DefaultLocation = true;
+            this.nightControlBox1.DisableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.nightControlBox1.DisableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
+            this.nightControlBox1.EnableCloseColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.nightControlBox1.EnableMaximizeButton = true;
+            this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.nightControlBox1.EnableMinimizeButton = true;
+            this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
+            this.nightControlBox1.Location = new System.Drawing.Point(1011, 0);
+            this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
+            this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.nightControlBox1.MinimizeHoverForeColor = System.Drawing.Color.White;
+            this.nightControlBox1.Name = "nightControlBox1";
+            this.nightControlBox1.Size = new System.Drawing.Size(139, 31);
+            this.nightControlBox1.TabIndex = 41;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Maroon;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 40);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(500, 730);
+            this.panel3.TabIndex = 3;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.panel2);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(650, 730);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.flowLayoutPanel1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(500, 40);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(650, 730);
+            this.panel4.TabIndex = 4;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Location = new System.Drawing.Point(137, 1135);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox3.TabIndex = 31;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::Library_Management_System.Properties.Resources.account;
@@ -552,6 +653,7 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
+<<<<<<< HEAD
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -624,6 +726,8 @@
             this.panel3.Size = new System.Drawing.Size(500, 730);
             this.panel3.TabIndex = 3;
             // 
+=======
+>>>>>>> 1bd55e2d1d4aded78b50a1b62887192624ec316a
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -635,6 +739,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+<<<<<<< HEAD
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
@@ -653,6 +758,17 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(650, 730);
             this.panel4.TabIndex = 4;
+=======
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::Library_Management_System.Properties.Resources.books;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(10, 8);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+>>>>>>> 1bd55e2d1d4aded78b50a1b62887192624ec316a
             // 
             // Register
             // 
@@ -671,8 +787,15 @@
             this.Load += new System.EventHandler(this.SignUp_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+<<<<<<< HEAD
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -681,6 +804,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+>>>>>>> 1bd55e2d1d4aded78b50a1b62887192624ec316a
             this.ResumeLayout(false);
 
         }
